@@ -1,0 +1,480 @@
+.I 1
+.W
+Most resources have been spent on applying information retrieval
+techniques to the physical and medical sciences.  But, has information
+retrieval been used at all in the natural sciences, social sciences,
+and humanities?  If so, what have been some of the problems which have
+been encountered with these subject areas and how have they been
+solved, if at all?  Have the characteristics of these subject areas
+necessitated the development of new information retrieval techniques?
+What are the prospcts for future machine control in these areas?
+
+.I 2
+.W
+I am seeking information on the use of data processing in libraries and
+the mechanization of routine library processes and procedures.  I would
+like descriptions of both general and specific applications of
+automation in such areas as circulation, cataloging, acquisitions,
+serial records, and other record-keeping.  Examples should be based on
+the operation of a conventional public or university library, or
+practices in a special library which could also be applied in a public
+or university library.  Give descriptions of equipment and operations,
+both present and projected.
+
+.I 3
+.T
+The Selection of Good Search Terms
+.A
+van Rijsbergen, C.J.
+Harper, D.J.
+Porter, M.F.
+.W
+    This paper tackles the problem of how one might select further search terms,
+using relevance feedback, given the search terms in the query.  These search
+terms are extracted from a maximum spanning tree connecting all the terms in the
+index term vocabulary.  A number of different spanning trees are generated from
+a variety of association measures.  The retrieval effectiveness for the
+different spanning trees is shown to be approximately the same.  Effectiveness
+is measured in terms of precision and recall, and the retrieval tests are done
+on three different test collections.
+.B
+(Information Processing & Management, Vol. 17, No. 2, 1981, pp. 77-91)
+
+.I 4
+.T
+A Translating Computer Interface for End-User Operation of
+Heterogeneous Retrieval Systems.  II. Evaluations
+.A
+Marcus, R.S.
+Reintjes, J.F.
+.W
+    The evaluation of the concept of a translating compuyter interface for
+simplifying operation of multiple, heterogenous online bibliographic
+retrieval systems has been undertaken.  An experimental retrieval system,
+named CONIT, was built and tested under controlled conditions with
+inexperienced end users.  A detailed analysis of the experimental usages
+showed that users were able to master interface operation sufficiently well
+to find relevant document references.  Success was attributed, in part,
+to a simple command language, adequate online instruction, and a simplified
+natural-language, keyword/stem approach to searching.  It is concluded that
+operational interfaces of the type studied can provide for increased usability
+of existing system in a cost effective manner, especially for searchers.
+Furthermore, more advanced interfaces based on improved instruction and
+automated search strategy techniques could further enhance retrieval
+effectiveness for a wide class of users.
+.B
+(JASIS, Vol. 32, No. 4, July 1981, pp. 304-317)
+
+.I 5
+.T
+A Model of Cluster Searching Based on Classification
+.A
+Croft, W.B.
+.W
+    The use of document clusters has been suggested as an efficient file
+organization for a document retrieval system.  It is possible that by
+using this information about the relationships between documents that the
+effectiveness of the system (i.e., its ability to distinguish relevant
+from non-relevant documents) may also be improved.  In this paper a
+probabilistic model of cluster searching  based on query classification is
+described.  This model is tested with retrieval experiments which indicate
+that it can be more effective than heuristic cluster searches and cluster
+searches based on other models.  It can also be more effective than a full
+search in which every document is compared to the query.  The efficiency
+aspects of the implementation of the model are discussed.
+.B
+(Inform. Systems, Vol. 5, No. 3, 1980, pp. 189-195)
+
+.I 6
+.W
+Testing automated information systems.
+.I 7
+.T
+Performance Testing of a Book and Its Index as a Information Retrieval
+System
+.A
+Bennion, B.C.
+.W
+    The retrieval performance of book indexes can be measured in terms of
+their ability to direct a user selectively to text material whose identity
+but not location is known.  The method requires human searchers to base
+their searching strategies on actual passages from the book rather than on
+test queries, natural or contrived.  It circumvents the need for relevance
+judgement, but still yields performance indicators that correspond
+approximately to the recall and precision ratios of large document retrieval
+system evaluation.  A preliminary application of the method to the subject
+indexing of two major encyclopedias showed one encyclopedia apparently
+superior in both the finding and discrimination abilities of retrieval
+performance.  The method is presently best suited for comparative testing
+since its ability to yield absolute or reproducible measures is as yet not
+established.
+.B
+(JASIS, Vol. 31, No. 4, July 1980, pp. 264-270)
+
+.I 8
+.T
+Text Passage Retrieval Based on Colon Classification:  Retrieval Performance
+.A
+Shepherd, M.A.
+.W
+    A set of experiments was conducted to determine the suitability of the
+Colon Classification as a foundation for the automated analysis, representation
+and retrieval of primary information from the full text of documents.  Primary
+information is that information embodied in the text of a document, as opposed
+to secondary information which is generally in such forms as:  an abstract, a
+table of contents, or an index.
+    Full text databases were created in two subject areas and queries solicited
+from specialists in each area.  An automated full text indexing system, along
+with four automated passage retrieval systems, was created to test the various
+features of the Colon Classification.  Two Boolean-based systems and one simple
+word occurrence system were created in order to compare the retrieval results
+against types of systems which are in more common use.  The systems' retrieval
+performances were measured using recall and precision and the mean expected
+search length reduction factors.
+    Overall, it was found that the Colon Classification-based systems did not
+perform significantly better than the other systems.
+.B
+(Journal of Documentation, Vol. 37, No. I, March 1981, pp. 25-35)
+
+.I 9
+.T
+Interacting in Natural Language With Artificial Systems:  The Donau Project
+.A
+Guida, G.
+Somalvico, M.
+.W
+    This paper is intended to propose a new methodological approach to
+the conception and development of natural language understanding systems.
+This new contribution is supported by the design, implementation, and
+experimentation of DONAU:  a general purpose domain oriented natural
+language understanding system developed and presently running at the Milan
+Polytechnic Artificial Intelligence Project.  The system is based on a two
+level modular architecture intended to overcome the lack of flexibility and
+generality often pointed out in many existing systems, and to facilitate
+the exchange of results and actual experiences between different projects.
+The horizontal level allows an independent and parallel development of the
+single segments of the system (syntactic analyser, information extractor,
+legality controller).  The vertical level ensures the possibility of changing
+(enlarging or redefining) the definition of the semantic domain on which each
+particular version of the system is oriented and specialized in a simple,
+incremental, and user-oriented way.  In the paper the general architecture of
+the system and the mode of operation of each segment are illustrated in
+detail.  Linguistic models, knowledge representation, and parsing algorithms
+are described and illustrated by means of selected examples.  Performance
+evaluations of the system in the application version on data base inquiry are
+reported and discussed.  Promising directions for future research are presented
+in the conclusions.
+.B
+(Inform. Systems, Vol. 5, NO. 4, February 1980, pp. 333-344)
+
+.I 10
+.T
+Database and Online Statistics for 1979
+.A
+Williams M.E.
+.W
+    The number of databases, records contained in databases and the online
+use of databases has increased dramatically over the past several years,
+bringing the 1979 totals for bibliographic, bioliographic-related, and
+natural language databases to 528.  These 528 databases contain 148 million
+records.  Some 4 million online searches were conducted via the major U.S.
+and Canadian systems in 1979.
+.B
+(Bulletin of ASIS, Vol. 7, No. 2, December 1980, pp. 27-29)
+
+.I 11
+.W
+How can actually pertinent data, as opposed to references or entire articles
+themselves, be retrieved automatically in response to information requests?
+.I 12
+.W
+I am looking for information about the impact of automation on
+libraries and its significance for libraries in general.  This includes
+the increasing importance of automation in view of the proliferation of
+information today, and how automation can help libraries cope with
+this problem.  How will automation affect libraries and how should they
+react to the idea of automation?
+
+.I 13
+.W
+Cost and determination of cost associated with systems of automated information.
+.I 14
+.T
+A General Formulation of Bradford's Distribution:  The Graph-Oriented
+Approach
+.A
+Asai, I.
+.W
+    From the detailed analysis of eight previously published mathematical
+models, a general formulation of Bradford's distribution can be deduced as
+follows:  y = a log(x + c) + b, where y is the ratio of the cumulative
+frequency of articles to the total number of articles and x is the ratio
+of the rank of journals to the total number of journals.  The parameters a, b,
+and c are the slope, the intercept, and the shift in a straight line to log rank,
+respectively.  Each of the eight models is a special case of the general
+formulation and is one of five types of formulation.  In order to estimate
+three unknown parameters, a statistical method using root-weighted square
+error is proposed.  A comparative experiment using 11 databases suggests that
+the fifth type of formulation with three unknown parameters is the best fit
+to the observed data.  A further experiment shows that the deletion of the
+droop data leads to a more accurate value of parameters and less error.
+.B
+(JASIS, Vol. 32, No. 2, March 1981, pp. 113-121)
+
+.I 15
+.T
+The Use of Titles for Automatic Document Classification
+.A
+Hamill, K.A.
+Zamora, A.
+.W
+    An experimental computer program has been developed to classify
+documents according to the 80 sections and five major section groupings of
+Chemical Abstracts (CA).  The program uses pattern recognition techniques
+supplemented by heuristics.  During the "training" phase, words from
+pre-classified documents are selected, and the probability of occurrence
+of each word in each section of CA is computed and stored in a reference
+dictionary.  The "classification" phase matches each word of a document
+title against the dictionary and assigns a section number to the document
+using weights derived from the probabilities in the dictionary.  Heuristic
+techniques are used to normalize word variants such as plurals, past
+tenses, and gerunds in both the training phase and the classification
+phase.  The dictionary lookup technique is supplemented by the analysis of
+chemical nomenclature terms into their component word roots to influence
+the section to which the documents are assigned.  Program performance and
+human consistency have been evaluated by comparing the program results
+against the published sections of CA and by conducting an experiment with
+people experienced in the assignment of documents to CA sections.  The
+program assigned approximately 78% of the documents to the correct major
+section groupings of CA and 67% of the correct sections or cross-references
+at a rate of 100 documents per second.
+.B
+(JASIS, Vol. 31, No. 6, November 1980, pp. 396-402)
+
+.I 16
+.W
+What future is there for automatic medical diagnosis?
+.I 17
+.T
+Adaptive Design for Decision Support Systems
+.A
+Keen, P.G.W.
+.W
+    Decision Support Systems (DSS) represent a concept of the role of
+computers within the decision making process.  The term has become a
+rallying cry for researchers, practitioners, and managers concerned that
+Management Science and Management Information Systems fields have become
+unnecessarily narrow in focus.  As with many rallying cries, the term is
+not well defined.  For some writers, DSS simply mean interactive systems
+for use by managers.  To others, the key issue is support, rather than
+system.  They focus on understanding and improving the decision process;
+a DSS is then designed using any available and suitable technology. Some
+researchers view DSS as a subfield of MIS, while others regard it as an
+extension of Management Science techniques.  The former define Decision
+Support as providing managers with access to data and the latter as giving
+them access to analytic models.
+
+    The key argument of this paper is that the term DSS is relevant to
+situations where a "final" system can be developed only through an
+adaptive process of learning and evolution.  The design strategy must
+then focus on getting finished; this is very different from Management
+Science and Data Processing approaches.  The research issued for DSS
+center around adaption and evolution; they include managerial learning
+representation of tasks and user behavior, design architecture and
+strategies for getting started.
+.B
+(Database, Vol. 12, No. 1-2, Fall 1980)
+
+.I 18
+.T
+User-Responsive Subject Control in Bibliographic Retrieval Systems
+.A
+Tague, J.M.
+.W
+    A study was carried out of the relationship between the vocabulary of
+user queries and the vocabulary of documents relevant to the queries, and
+the value of adding to the document description record in a retrieval system
+keywords from previous queries for which the document had proved useful.
+Two test databases incorporating user query keywords were implemented at
+the School of Library and Information Science, University of Western
+Ontario.  Clustering of the documents via title and user keywords, a
+statistical analysis of title-user keyword co-occurrences, and retrieval
+tests were used to examine the effect of the added keywords.  Results
+showed the impracticality of the procedure in an operational setting, but
+indicated the value of analyses with sample data in the development and
+maintenance of keyword dictionaries and thesauri.
+.B
+(Information Processing & Management, Vol. 17, No. 3, 1981, pp. 149-159)
+
+.I 19
+.W
+The standard method of finding information in today's libraries is
+through the use of the alphabetically arranged card catalog or the
+classified catalog based on a classification system such as the DC or
+LC.  Can these systems be modified for use with automated information
+retrieval?
+
+.I 20
+.T
+Feature Comparison of an In-House Information Retrieval System With a
+Commercial Search Service
+.A
+Boyle, S.O.
+Miller, A.P.
+.W
+    A commercially available online search was used as a standard for
+comparative searching and evaluation of an in-house information system
+based on automatic indexing.  System features were identified and
+evaluated on the basis of their usefulness in various kinds of searching,
+their ease in implementation, and how they are influenced by differences
+in user type or specific applications.  Some common features of the
+commercial system, such as online instruction, user-specified print formats,
+dictionary display, and truncation, are seen to be unnecessary or
+impractical for the in-house system.  In designing the in-house system,
+therefore, detald consideration must be given to the applications,
+operating environment, and real user needs.  While a commercial system can
+serve as a useful standard for comparative evaluation, one must be
+careful not to attempt to duplicate it blindly in-house.
+.B
+(JASIS, Vol. 31, No. 5, September 1980, pp. 309-317)
+
+.I 21
+.W
+What possibilities are there for automatic grammatical and contextual analysis
+of articles for inclusion in an information retrieval system?
+.I 22
+.W
+The need to provide personnel for the information field.
+.I 23
+.T
+Cocited Author Retrieval Online:
+An Experiment with the Social Indicators Literature
+.A
+White, H.D.
+.W
+    One mode of online retrieval in Scisearch or Social Scisearch involves
+entering pairs of authors' names believed to be jointly cited by
+subsequent writers and retrieving papers in which cocitations occur.  Six
+pairs were formed with the names of four authors prominent in the social
+indicators movement (Bauer, Duncan, Land, and Sheldon).  Documents by the
+four were not specified.  It was thought that the pair Duncan and Land
+would retrieve papers in which indicator-type data would be integrated with
+path-analytic causal modeling.  All other pairs seemed likely to retrieve a
+"general social indicators" literature.  The 298 retrieved papers confirmed
+expectattions.  It was found that 121 papers generally cited social indicators
+(SI) documents by the input authors and frequently had SI language in
+their titles.  Other signs of content also identified them as papers of
+the SI movement.  The 177 papers retrieved on Duncan and Land generally
+cited causal modeling documents by the input pair and were path-analytic
+in nature.  As expected, they were relatively "harder" than the first
+group of papers, although the two groups are akin and are formally linked
+through citations in certain papers.  An additional result is that papers
+citing at least three of the input authors tend to be overviews of the SI
+movement.
+.B
+(JASIS, Vol. 32, No. 1, January 1981, pp. 16-21)
+
+.I 24
+.T
+Measurement in Information Science:  Objective and Subjective Metrical Space
+.A
+Brookes, B.C.
+.W
+    It is argued that in information science we have to distinguish
+physical, objective, or document space from perspective, subjective, or
+information space.  These two spaces are like maps and landscapes: each
+is a systematic distortion of the other.  However, transformation can be
+easily made once the two spaces are distinguished.  If the transformations
+are omitted we only get unhelpful physical solutions to information problems.
+.B
+(JASIS, Vol. 31, No. 4, July 1980, pp. 248-255)
+
+.I 25
+.W
+What lists of words useful for indexing or classifying material are
+available?  Wanted are lists of terms that are descriptive vocabularies
+of particular fields or schedules of words that are related to each other
+in meaningful schemes.  Wanted are lists that have been tested, at least to
+some extent, and found useful for organizing material and for retrieving it.
+
+.I 26
+.T
+Using an Online Microfiche Catalog for Technical Service and Retrieval of
+Bibliographic Data
+.A
+Hayes, R.M.
+Borko, H.
+.W
+    A prototype system is created that integrates a microfiche catalog
+into an online computer system for bibliographic control.  Costs and
+operational data are collected and analyzed.  The system permits the more
+economical microfiche storage of catalog records than would be feasible
+for comparable online magnetic disk storage.  Experimental tests
+demonstrate the feasibility of the online microfiche catalog system for use
+in library technical services and retrieval of bibliographic data.  The
+primary result of the project is the creation of a completely operational
+facility, including all equipment, software, procedures, and data bases
+necessary to demonstrate the system.  A second set of results is derived
+from the experimental use of the system and the evaluation of costs and
+times for various operations.  The cost effectiveness of the online microfiche
+catalog is demonstrated.
+.B
+(Information Processing and Management, Vol. 16, No. 6, February 1980,
+pp. 277-289)
+
+.I 27
+.T
+The Use of Automatic Relevance Feedback in Boolean Retrieval Systems
+.A
+Dillon, M.
+Desper, J.
+.W
+    A technique is described for automatic reformulation of boolean
+queries.  Based on patron relevance judgements of an initial retrieval,
+prevalence measures are derived for terms appearing in the retrieved set
+of documents that reflect a term's distribution among the relevant and
+non-relevant documents.  These measures are then used to guide the
+construction of a boolean query for a subsequent retrieval.  To illustrate
+the technique, a series of tests is described of its application to a small
+data base in an experimental environment.  Results compare favourably with
+feedback as employed in a SMART-type system.  MOre extensive testing is
+suggested to validate the technique.
+.B
+(Journal of Documentation, Vol. 36, No. 3, September 1980, pp. 197-208)
+
+.I 28
+.W
+What are the aims and objectives of the medical literature analysis
+and retrieval system (MEDLARS)?  How does MEDLARS operate?  What are
+the possible applications of MEDLARS to future information retrieval
+systems?
+
+.I 29
+.T
+The Interface Between Computerized Retrieval Systems and Micrographic
+Retrieval Systems
+.A
+McMurdo, G.
+.W
+    This paper notes the benefits accruing from interaction between computerized
+retrieval systems and micrographic retrieval systems.  It reviews current state
+of automated micrographic retrieval technology.  The conclusion is that with a
+combination of advances in communications technology, and sophisticated indexing
+input from libraries and information scientists, the new generation of automated
+micrographs devices may constitute the on-line document retrieval systems of the
+future.
+.B
+(Journal of Information Science I, 1980, pp. 345-349)
+
+.I 30
+.W
+Information retrieval is still such a new and experimental field that a
+line distinguishing research and practice is often difficult - even
+impossible - to draw.  Are there, however, actual centers of research
+on information retrieval?  If so, in which countries are they
+located?  Who supports them - government, business, universities, or
+libraries?  Can information retrieval as a specialized research
+discipline be said to be emerging, or is it still an amalgam of skills
+from other fields, such as mathematics, engineering, and library
+science?  In other words, tell me about information retrieval research.
+
